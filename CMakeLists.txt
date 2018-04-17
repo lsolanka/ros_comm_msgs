@@ -7,10 +7,10 @@ HunterGate(
 )
 
 project(ros_comm)
-hunter_add_package(ros-catkin)
-hunter_add_package(ros-message_generation)
-hunter_add_package(ros-message_runtime)
-hunter_add_package(ros-std_msgs)
+hunter_add_package(catkin)
+hunter_add_package(ros_message_generation)
+hunter_add_package(ros_message_runtime)
+hunter_add_package(ros_std_msgs)
 
 add_subdirectory(rosgraph_msgs)
 add_subdirectory(std_srvs)
